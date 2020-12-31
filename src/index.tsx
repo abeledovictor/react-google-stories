@@ -1,9 +1,15 @@
-import * as React from 'react'
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'amp-img': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+      'amp-story': any;
+      'amp-story-grid-layer': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+      'amp-story-page': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+    }
+  }
+}
 
-const Package: React.FC = () => (
-  <div className="package">
-    <h2>Do cool stuff</h2>
-  </div>
-)
-
-export default Package
+export { AmpStory } from './AmpStory'
+export { AmpStoryPage } from './AmpStoryPage'
+export { AmpStoryGridLayer } from './AmpStoryGridLayer'
+export { AmpImg } from './AmpImg'
