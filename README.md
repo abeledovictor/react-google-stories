@@ -5,9 +5,13 @@ First API to play nicely with google stories
 
 ### Setup
 - Add this script to your index.html file
-`<script async custom-element="amp-story"
+```js
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video"
+        src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story"
         src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
-`
+```
 
 **It's important to note that to have a valid AMP story, the <body> element must have only one AmpStory component; all other elements are contained in the AmpStory.**
 
