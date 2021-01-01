@@ -75,6 +75,6 @@ export default App;
 
 - WARNING: **Each AmpStoryPage should have a unique id**
 
-- Example URL (Joy of pets)[https://abeledovictor.github.io/react-google-stories-pets-example/]
+- Example URL [Joy of pets](https://abeledovictor.github.io/react-google-stories-pets-example/)
 
-- Example repo (Joy of pets repo)[https://github.com/abeledovictor/react-google-stories-pets-example]
+- Example repo [Joy of pets repo](https://github.com/abeledovictor/react-google-stories-pets-example)
