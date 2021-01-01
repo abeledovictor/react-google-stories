@@ -1,6 +1,6 @@
 {
   "name": "react-google-stories",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component to integrate Google Stories",
   "main": "dist/index.js",
   "scripts": {

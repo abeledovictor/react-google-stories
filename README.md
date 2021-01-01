@@ -24,15 +24,35 @@ If you had a new CRA project, you should need to
 - Paste this template:
 
 ```js
-import { AmpStoryGridLayer, AmpStory, AmpStoryPage, AmpImg } from 'react-google-stories'
+import { AmpStoryGridLayer, AmpStory, AmpStoryPage, AmpImg, AmpHeader, AmpParagraph } from 'react-google-stories'
 
 function App() {
   return (
-    <AmpStory title="Example" publisher="Example publisher">
+    <AmpStory
+      title="Example title"
+      publisher="Example publisher"
+      publisher-logo-src="logo128.png"
+      poster-portrait-src="3x4.jpg"
+    >
       <AmpStoryPage id="first">
         <AmpStoryGridLayer template="fill">
           <AmpImg src="logo512.png" height="720" width="1280" layout="responsive" />
         </AmpStoryGridLayer>
+        <AmpStoryGridLayer template="vertical">
+            <AmpHeader level={1} title="Title 1" />
+            <AmpParagraph text="Subtitle" />
+        </AmpStoryGridLayer>
+      </AmpStoryPage>
+
+      <AmpStoryPage id="second">
+        <AmpStoryGridLayer template="fill">
+          <AmpImg src="logo512.png" height="720" width="1280" layout="responsive" />
+        </AmpStoryGridLayer>
+        <AmpStoryGridLayer template="vertical">
+            <AmpHeader level={1} title="Title 2" />
+            <AmpParagraph text="Subtitle" />
+        </AmpStoryGridLayer>
+
       </AmpStoryPage>
     </AmpStory>
   );
@@ -53,3 +73,4 @@ export default App;
         src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
 ```
 
+- WARNING: **Each AmpStoryPage should have a unique id**
