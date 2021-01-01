@@ -77,4 +77,4 @@ export default App;
 
 - Example URL [Joy of pets](https://abeledovictor.github.io/react-google-stories-pets-example/)
 
-- Example repo [Joy of pets repo](https://github.com/abeledovictor/react-google-stories-pets-example)
+- Example repo [Joy of pets repo](https://github.com/abeledovictor/react-google-stories-pets-example/blob/main/src/App.js)
