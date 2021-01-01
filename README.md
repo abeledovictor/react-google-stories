@@ -13,7 +13,7 @@ First API to play nicely with google stories
         src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
 ```
 
-**It's important to note that to have a valid AMP story, the <body> element must have only one AmpStory component; all other elements are contained in the AmpStory.**
+**It's important to note that to have a valid AMP story, the body tag element must have only one AmpStory component; all other elements are contained in the AmpStory.**
 
 #### Create react app setup example
 If you had a new CRA project, you should need to
