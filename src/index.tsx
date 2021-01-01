@@ -6,6 +6,7 @@ declare global {
       'amp-story-bookend': any;
       'amp-story-grid-layer': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
       'amp-story-page': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+      'amp-video': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
     }
   }
 }
@@ -18,3 +19,5 @@ export { AmpHeader } from './AmpHeader'
 export { AmpParagraph } from './AmpParagraph'
 export { AmpQuote } from './AmpQuote'
 export { AmpStoryBookend } from './AmpStoryBookend'
+export { AmpSource } from './AmpSource'
+export { AmpVideo } from './AmpVideo'
